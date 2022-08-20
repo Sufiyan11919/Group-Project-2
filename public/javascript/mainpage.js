@@ -2,7 +2,7 @@ const puma = document.getElementById("puma");
 const nike = document.getElementById("nike");
 const adidas = document.getElementById("adidas");
 
-fetch("https://jsonplaceholder.typicode.com/photos?_limit=15").then((data)=>{
+fetch("https://jsonplaceholder.typicode.com/photos?_limit=10").then((data)=>{
     // console.log(data);
     return data.json();
 }).then((fetched_data)=>{
@@ -19,7 +19,7 @@ fetch("https://jsonplaceholder.typicode.com/photos?_limit=15").then((data)=>{
 
 
 
-fetch("https://jsonplaceholder.typicode.com/photos?_limit=15").then((data)=>{
+fetch("https://jsonplaceholder.typicode.com/photos?_limit=10").then((data)=>{
     return data.json();
 }).then((fetched_data)=>{
     fetched_data.map(value=>{
@@ -33,7 +33,7 @@ fetch("https://jsonplaceholder.typicode.com/photos?_limit=15").then((data)=>{
 
 
 
-fetch("https://jsonplaceholder.typicode.com/photos?_limit=15").then((data)=>{
+fetch("https://jsonplaceholder.typicode.com/photos?_limit=10").then((data)=>{
     // console.log(data);
     return data.json();
 }).then((fetched_data)=>{
